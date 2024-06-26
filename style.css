@@ -15,15 +15,18 @@ header{
     color: white;
 }
 footer{
-    height: 10vh;
+    height: 2vh;
     background-color: black;
     bottom: 0;
     color: white;
 }
 footer h2{
     position: absolute;
-    left: 15%;
+    right: 5%;
+    bottom: 10%;
+    font-family: 'Raedex Pro', sans-serif;
 }
+h2 {font-size: 15px;}
 header h1{
     position: absolute;
     left: 5%;
@@ -39,6 +42,7 @@ h1 { font-size: 15pt;}
     color: black;
     transition: color 1s;
     position: absolute;
+    margin-right: 100px;
 
 }
 .gmail-icon:hover{
@@ -55,11 +59,13 @@ h1 { font-size: 15pt;}
     border: none;
     outline: none;
     float: right;
+    margin-right: 300px;
     cursor: pointer;
     transition: 1s;
+    margin-top: 16px;
     /* cursor: pointer used to make yoru mouse turn into pointer when it is on the button */
 }
 .btn:hover{
-    font-size: 23px;
+    font-size: 21px;
     background-color: rgb(196, 206, 214);
 }
