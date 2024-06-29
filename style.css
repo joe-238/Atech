@@ -32,18 +32,18 @@ footer h2{
     bottom: 10%;
     font-family: 'Raedex Pro', sans-serif;
 }
-h2 {font-size: 15px;}
+footer h2 {font-size: 15px;}
 header h1{
     position: absolute;
     left: 5%;
-    bottom:30%
-    
+    bottom: 25%;
+    color: white;
+    font-family: 'Arial';
 }
-h1 { font-size: 15pt;}
+header h1 { font-size: 15pt;}
 .main{
     width: 75%;
     margin: auto;
-    
     /*makes it so that its centered in the middle */
     background-color: rgb(40, 45, 75);
     height: 6vh;
@@ -96,7 +96,6 @@ h1 { font-size: 15pt;}
 nav{
     flex: 1;
     text-align: center;
-    
 }
 nav ul li{
     display: inline-block;
@@ -104,8 +103,7 @@ nav ul li{
     margin-left: 100px;
     position: static;
     list-style: none;
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 nav ul li a{
     color: white;
@@ -113,7 +111,6 @@ nav ul li a{
     font-family: Arial;
     font-size: 20px;
     transition: 1s;
-    
 }
 nav ul li a .btn2{
     font-size: 16px;
@@ -127,4 +124,38 @@ nav ul li a .btn2{
 }
 ul li a:hover{
     color:azure;
+}
+.center{
+    background-color: rgb(0, 0, 0);
+    width: 50%;
+    opacity: 50%;
+    margin-top: 10%;
+    height: 40vh;
+    text-align: left;
+    text-indent: 15px;
+    
+}
+.center h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Arial';
+    position: absolute;
+    margin-top: 10px;
+}
+.center h2{
+    color: rgb(255, 255, 255);
+    font-family: 'Arial';
+    position: absolute;
+    margin-top: 50px;
+}
+.btn{
+    font-size: 16px;
+    background-color: rgb(255, 197, 33);
+    border-radius: 0.1em;
+    padding: 0.75em 1.25em;
+    margin: 0.25em;
+    border: none;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
 }
