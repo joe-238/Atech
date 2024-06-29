@@ -125,27 +125,30 @@ nav ul li a .btn2{
 ul li a:hover{
     color:azure;
 }
-.center{
+.container{
     background-color: rgb(0, 0, 0);
     width: 50%;
     opacity: 50%;
     margin-top: 10%;
-    height: 40vh;
+    height: 30vh;
     text-align: left;
-    text-indent: 15px;
-    
 }
-.center h1{
+.text{
     color: rgb(255, 255, 255);
     font-family: 'Arial';
-    position: absolute;
+    width: 28%;
+    margin-left: 10px;
     margin-top: 10px;
-}
-.center h2{
-    color: rgb(255, 255, 255);
-    font-family: 'Arial';
     position: absolute;
-    margin-top: 50px;
+}
+.text h1{
+    font-size: 40px;
+    line-height: 50px;
+}
+.text p{
+    font-size: 15px;
+    margin-top: 10px;
+    line-height: 30px;
 }
 .btn{
     font-size: 16px;
@@ -157,5 +160,6 @@ ul li a:hover{
     color: white;
     cursor: pointer;
     position: absolute;
-    top: 60%;
+    margin-top: -3.5%;
+    margin-left: 0.5%;
 }
