@@ -10,21 +10,20 @@ header, footer{
 }
 header{
     position: relative;
-    height: 7vh;
+    height: 4.2vh;
     background-color: rgb(255, 255, 255);
-    color: white;
+    background-color: rgb(255, 197, 33);
     top: 0px;
     left: 0;
 }
 footer{
     position: absolute;
     height: 20vh;
-    background-color: black;
     bottom: 0;
     color: white;
     overflow: hidden;
 }
-.img{
+footer .img{
     width: 100%;
 }
 footer h2{
@@ -38,26 +37,43 @@ header h1{
     position: absolute;
     left: 5%;
     bottom:30%
+    
 }
 h1 { font-size: 15pt;}
 .main{
-    width: 100%;
-    background-color: rgb(38, 64, 136);
-    height: 4vh;
+    width: 75%;
+    margin: auto;
+    
+    /*makes it so that its centered in the middle */
+    background-color: rgb(40, 45, 75);
+    height: 6vh;
+    top: 50%;
 }
 .gmail-icon{
-    color: black;
+    color: rgb(255, 255, 255);
     transition: color 1s;
     position: absolute;
-    left: 64%;
-    top: 1.75%;
+    left: 84%;
+    top: 10%;
 }
-.gmail-icon:hover{
-    color: rgb(80, 83, 97);  
+.msg-icon{
+    color: rgb(255, 255, 255);
+    transition: color 1s;
+    position: absolute;
+    left: 76.5%;
+    top: 10%;
 }
-.btn{
-    font-size: 20px;
-    background-color: rgb(214, 223, 231);
+.phone-icon{
+    color: rgb(255, 255, 255);
+    transition: color 1s;
+    position: absolute;
+    left: 80%;
+    top: 10%;
+}
+
+/* .btn{
+    font-size: 16px;
+    background-color: rgb(20, 34, 46);
     border-radius: 1em;
     font-family: 'Raedex Pro', sans-serif;
     padding: 0.25em 0.5em;
@@ -68,29 +84,46 @@ h1 { font-size: 15pt;}
     margin-right: 15%;
     cursor: pointer;
     transition: 1s;
-    margin-top: 16px;
+    margin-top: 7px;
+    color: white;
     /* cursor: pointer used to make yoru mouse turn into pointer when it is on the button */
-}
-.btn:hover{
-    font-size: 21px;
-    background-color: rgb(196, 206, 214);
-}
+/*}
 
-ul li{
+.btn:hover{
+    background-color: rgb(37, 56, 73);
+} */
+
+nav{
+    flex: 1;
+    text-align: center;
+    
+}
+nav ul li{
     display: inline-block;
     top: 25%;
-    margin-left: 62px;
+    margin-left: 100px;
     position: static;
-    
+    list-style: none;
     text-decoration: none;
     
 }
-ul li a{
+nav ul li a{
     color: white;
     text-decoration: none;
     font-family: Arial;
     font-size: 20px;
     transition: 1s;
+    
+}
+nav ul li a .btn2{
+    font-size: 16px;
+    background-color: rgb(255, 197, 33);
+    border-radius: 0.1em;
+    padding: 0.75em 1.25em;
+    margin: 0.25em;
+    border: none;
+    color: white;
+    cursor: pointer;
 }
 ul li a:hover{
     color:azure;
