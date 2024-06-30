@@ -21,10 +21,7 @@ footer{
     height: 20vh;
     bottom: 0;
     color: white;
-    overflow: hidden;
-}
-footer .img{
-    width: 100%;
+    background-color:  rgb(46, 54, 99);
 }
 footer h2{
     position: absolute;
@@ -48,6 +45,7 @@ header h1 { font-size: 15pt;}
     background-color: rgb(40, 45, 75);
     height: 6vh;
     top: 50%;
+    
 }
 .gmail-icon{
     color: rgb(255, 255, 255);
